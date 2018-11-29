@@ -1,0 +1,12 @@
+{
+	"name": "transient-server",
+	"version": "0.0.1",
+	"description": "Transient File Sharing Service Server",
+	"dependencies": {
+		"express": "^4.16.2",
+		"socket.io": "^2.1.1"
+	},
+	"scripts": {
+		"start": "node index.js"
+	}
+}

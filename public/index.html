@@ -1,0 +1,35 @@
+<html>
+	<head>
+		<title>Transient</title>
+
+		<script src="/socket.io/socket.io.js"></script>
+		
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500|Roboto:400,400i,700" rel="stylesheet">
+		<link rel="stylesheet" href="/css/styles.css">
+	</head>
+	<body>
+		<header>
+			<h1>Transient</h1>
+		</header>
+		<div class="wrapper">
+			<div class="file_upload">
+				<div class="prompt">
+					<h2>Drag Files Here</h2>
+					<p>Or click to choose them</p>
+				</div>
+				<input type="file" id="upload" name="upload[]" multiple/>
+			</div>
+				
+			<hr>
+
+			<div id="files_list"></div>
+			
+		</div>
+		<footer>
+			<div class="wrapper" id="footerWrapper" style="max-width: 500px">
+				<button id="uploadButton">Share</button>
+			</div>
+		</footer>
+		<script src="/host.js"></script>
+	</body>
+</html>
